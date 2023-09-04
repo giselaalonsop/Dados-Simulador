@@ -1,9 +1,9 @@
 # Como usar?
 
 1.Clona este repositorio
-2.Ejecuta npm install
-3.Ejecuta npm run dev
-4.Happy hacking :)
+1.Ejecuta npm install
+1.Ejecuta npm run dev
+1.Happy hacking :)
 
 ## Introducción
 La aplicación de simulación de lanzamiento de dados es un componente de React diseñado para proporcionar una experiencia de usuario interactiva al simular el lanzamiento de dos dados. El componente utiliza el estado de React y efectos para gestionar el proceso de lanzamiento de los dados, mostrar los resultados y calcular las probabilidades de todas las combinaciones posibles.
