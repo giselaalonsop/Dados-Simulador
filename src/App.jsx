@@ -47,7 +47,7 @@ const App = () => {
       setSum(currentSum);
 
       setTotalSum((prevTotalSum) => prevTotalSum + currentSum);
-    }, 1000); // Espera 1 segundo antes de mostrar el resultado
+    }, 200); // Espera 1 segundo antes de mostrar el resultado
   };
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const App = () => {
       setTimeout(() => {
         setDice1(dice1);
         setDice2(dice2);
-      }, 100);
+      }, 10);
     }
   }, [dice1, dice2]);
 

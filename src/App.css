@@ -41,22 +41,51 @@
   color: #888;
 }
 /* Animación de lanzamiento de dados */
-@keyframes roll-dice {
+/* Animación para mover los dados */
+@keyframes roll {
   0% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: rotate(0deg);
   }
-  30% {
-    transform: translate(0, -100px) rotate(180deg);
+  25% {
+    transform: rotate(360deg);
   }
-  60% {
-    transform: translate(0, 0) rotate(360deg);
+  50% {
+    transform: rotate(720deg);
+  }
+  75% {
+    transform: rotate(1080deg);
   }
   100% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: rotate(1440deg);
   }
 }
 
-/* Aplicar animación a los dados */
-.dice-rolling {
-  animation: roll-dice 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+/* Agregar transición suave a la rotación */
+.dice {
+  transition: transform 1s ease-in-out;
+}
+
+/* Clases específicas para cada número de dado */
+.dice-one {
+  animation: roll 1s ease-in-out;
+}
+
+.dice-two {
+  animation: roll 1s ease-in-out;
+}
+
+.dice-three {
+  animation: roll 1s ease-in-out;
+}
+
+.dice-four {
+  animation: roll 1s ease-in-out;
+}
+
+.dice-five {
+  animation: roll 1s ease-in-out;
+}
+
+.dice-six {
+  animation: roll 1s ease-in-out;
 }
