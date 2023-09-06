@@ -32,3 +32,7 @@ Las clases CSS se aplican dinámicamente para reflejar los valores actuales de l
 
 ## Uso
 Para incorporar la aplicación en tu proyecto de React, simplemente importa el componente App y colócalo en la ubicación deseada de tu aplicación. Puedes personalizar la apariencia ajustando las clases CSS en la sección de renderización.
+
+# Diagrama de flujo
+![image](https://github.com/giselaalonsop/Dados-Simulador/assets/83784934/5ef1cd7e-1d5f-4afb-9427-2da3664622dc)
+
